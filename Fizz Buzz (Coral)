@@ -1,0 +1,14 @@
+//Made with Coral
+
+integer x 
+x = RandomNumber(1, 100)
+ 
+if x % 15 == 0
+   Put "Fizzbuzz" to output
+elseif x % 5 == 0 
+ 
+   Put "Buzz" to output
+elseif x % 3 == 0 
+   Put "Fizz" to output
+else 
+   Put "The number is not fizzing or buzzing." to output
