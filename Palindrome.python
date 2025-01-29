@@ -1,0 +1,17 @@
+def main():
+    #Asks the user for the input
+    word = str(input("What is the word?: ")).lower()
+    
+    #Turns the list into a word and then reverses it
+    list = []
+    list += word
+    list.reverse()
+    
+    #Turns list back into a word and compares it to the original input to see if it matches
+    if word == "".join(list):
+        print(word.capitalize(), "is a palindrome.")
+    else:
+        print(word.capitalize(), "is not a palindrome.")
+
+#Runs the main function
+main()
